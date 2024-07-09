@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  </head>
+  <body>
+
+    
+    <!-- nav -->
+
+    <nav>
+      <div class="name">
+        <h3>Dhanush.</h3>
+      </div>
+      <ul  id="menu-list">
+        <a href="#home"> <li>Home</li> </a>
+        <a href="#about"> <li>About</li> </a>
+        <a href="#project"> <li>Projects</li> </a>
+        <a href="#contact"> <li>Contact</li> </a>
+        <a href="#contact"> <button>Hit me</button></a>
+        
+      </ul>
+
+      <div class="menu" id="menu">
+        <i class='bx bx-menu'></i>
+      </div>
+    </nav>
+
+    <!-- hero -->
+
+    <div class="hero" id="home">
+      <div class="title">
+        <h1>I'm Dhanush</h1>
+        <h3>Frontend Developer</h3>
+        <p>Strong foundation in Javascript and ReactJs</p>
+
+        <div class="resume">
+          <a href="DhanushUpdatedResume.pdf" download="resume"
+            ><button>Resume</button></a
+          >
+          <a href="#contact"><button>Contact</button></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- About -->
+
+    <div class="about" id="about">
+      <h1>About me</h1>
+
+      <div class="about-details">
+        <p>
+          Dedicated and skilled Frontend Developer with a passion for creating
+          engaging and user-friendly web applications. Proficient in a wide
+          range of frontend technologies including HTML, CSS, JavaScript, and
+          frameworks such as React.js. Experienced in designing responsive and
+          visually appealing interfaces while ensuring cross-browser
+          compatibility and accessibility standards. Strong background in
+          graphic design and artistic skills, coupled with expertise in UI/UX
+          principles. Capable of effectively collaborating with cross-functional
+          teams to deliver high-quality software solutions. Committed to
+          continuous learning and staying updated with the latest trends and
+          technologies in frontend development.
+        </p>
+
+        <div class="skills">
+            <p>HTML</p>
+            <p>CSS </p>
+            <p>jAVASCRIPT</p>
+            <p>REACTJS</p>
+            <p>TAILWIND CSS</p>
+            <p>BOOTSTRAP</p>
+
+            
+        </div>
+      </div>
+    </div>
+
+
+    <!-- contact -->
+
+    <div class="contact" id="contact">
+
+        <h1>Get in Touch</h1>
+        <form class="form" id="form">
+            <input type="hidden" name="access_key" value="a7233fbe-0577-4153-940f-5a0f1bb5f637">
+            <label for="name">Name</label>
+            <input type="text" placeholder="Enter your name" id="name" name="name" required>
+            <label for="email">Email</label>
+            <input type="email" placeholder="your email id" id="name" name="email" required>
+            <label for="message">Message</label>
+            <textarea name="message" id="message" placeholder="Enter your message" cols="30" rows="10"></textarea>
+            <button type="submit">Submit Form</button>
+
+            <div id="result">dhanush</div>
+        </form>
+    </div>
+
+
+    <!-- footer -->
+
+    <footer action="https://api.web3forms.com/submit" method="POST">
+        <h3>Dhanush.</h3>
+       <p> &copy; copyright-2024</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
